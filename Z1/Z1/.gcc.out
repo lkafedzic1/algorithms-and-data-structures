@@ -1,0 +1,11 @@
+/rhome/l/lkafedzic1/workspace/ASP/Z1/Z1/main.cpp: In instantiation of ‘DvostrukaLista<Tip>::DvostrukaLista() [with Tip = int]’:
+/rhome/l/lkafedzic1/workspace/ASP/Z1/Z1/main.cpp:226:25:   required from here
+/rhome/l/lkafedzic1/workspace/ASP/Z1/Z1/main.cpp:36:17: warning: ‘DvostrukaLista<int>::poslj’ will be initialized after [-Wreorder]
+     Cvor *poc, *poslj, *t;
+                 ^~~~~
+/rhome/l/lkafedzic1/workspace/ASP/Z1/Z1/main.cpp:36:11: warning:   ‘DvostrukaLista<int>::Cvor* DvostrukaLista<int>::poc’ [-Wreorder]
+     Cvor *poc, *poslj, *t;
+           ^~~
+/rhome/l/lkafedzic1/workspace/ASP/Z1/Z1/main.cpp:39:5: warning:   when initialized here [-Wreorder]
+     DvostrukaLista() : brElemenata(0), poslj(nullptr), poc(nullptr), t(nullptr) {}
+     ^~~~~~~~~~~~~~

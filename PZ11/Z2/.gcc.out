@@ -1,0 +1,3 @@
+/tmp/cc2m7hL7.o: In function `NizLista<int>::NizLista()':
+/rhome/l/lkafedzic1/workspace/ASP2018/PZ2/Z2/main.cpp:32: undefined reference to `Lista<int>::Lista()'
+collect2: error: ld returned 1 exit status

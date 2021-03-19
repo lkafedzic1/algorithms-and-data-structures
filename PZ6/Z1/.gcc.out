@@ -1,0 +1,7 @@
+/rhome/l/lkafedzic1/workspace/ASP/PZ6/Z1/main.cpp:123:2: error: expected unqualified-id before ‘/’ token
+ }/
+  ^
+/rhome/l/lkafedzic1/workspace/ASP/PZ6/Z1/main.cpp: In function ‘int main()’:
+/rhome/l/lkafedzic1/workspace/ASP/PZ6/Z1/main.cpp:170:5: error: ‘f’ was not declared in this scope
+     f(naziv,vel);
+     ^

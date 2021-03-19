@@ -1,0 +1,10 @@
+/rhome/l/lkafedzic1/workspace/ASP/Z4/Z1/main.cpp: In member function ‘void AVLStabloMapa<Tip1, Tip2>::azurirajBalans(AVLStabloMapa<Tip1, Tip2>::Cvor*)’:
+/rhome/l/lkafedzic1/workspace/ASP/Z4/Z1/main.cpp:402:13: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+             if(c->lijevo!=nullptr && c->desno!=nullptr)
+             ^~
+/rhome/l/lkafedzic1/workspace/ASP/Z4/Z1/main.cpp:409:17: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+                 lijRotacija(c);
+                 ^~~~~~~~~~~
+/rhome/l/lkafedzic1/workspace/ASP/Z4/Z1/main.cpp:402:15: warning: suggest explicit braces to avoid ambiguous ‘else’ [-Wdangling-else]
+             if(c->lijevo!=nullptr && c->desno!=nullptr)
+               ^

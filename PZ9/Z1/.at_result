@@ -1,0 +1,157 @@
+{
+    "buildhost_description": {
+        "id": "lab002c03",
+        "os": "Linux 2.6.32-754.2.1.el6.x86_64 x86_64\n\"CentOS release 6.10 (Final)\"\n",
+        "compiler_version": "g++ (GCC) 6.2.0",
+        "debugger_version": "GNU gdb (GDB) 7.12",
+        "profiler_version": "valgrind-3.12.0"
+    },
+    "status": 4,
+    "compile_result": {
+        "status": 1,
+        "output": "main.cpp: In function ‘unsigned int hashf(std::__cxx11::string, unsigned int)’:\nmain.cpp:9:22: warning: unused variable ‘rez’ [-Wunused-variable]\n     unsigned byte(0),rez(0);\n                      ^~~\nmain.cpp: In instantiation of ‘BinStabloMapa<Tip1, Tip2>::Cvor::Cvor(const Tip1&, const Tip2&, BinStabloMapa<Tip1, Tip2>::Cvor*, BinStabloMapa<Tip1, Tip2>::Cvor*, BinStabloMapa<Tip1, Tip2>::Cvor*) [with Tip1 = int; Tip2 = int]’:\nmain.cpp:138:17:   required from ‘BinStabloMapa<Tip1, Tip2>::Cvor* BinStabloMapa<Tip1, Tip2>::dodaj(const Tip1&, const Tip2&, BinStabloMapa<Tip1, Tip2>::Cvor*&, BinStabloMapa<Tip1, Tip2>::Cvor*) [with Tip1 = int; Tip2 = int]’\nmain.cpp:160:22:   required from ‘Tip2& BinStabloMapa<Tip1, Tip2>::operator[](const Tip1&) [with Tip1 = int; Tip2 = int]’\nmain.cpp:400:26:   required from here\nmain.cpp:112:35: warning: ‘BinStabloMapa<int, int>::Cvor::desno’ will be initialized after [-Wreorder]\n         Cvor* roditelj, *lijevo, *desno;\n                                   ^~~~~\nmain.cpp:112:15: warning:   ‘BinStabloMapa<int, int>::Cvor* BinStabloMapa<int, int>::Cvor::roditelj’ [-Wreorder]\n         Cvor* roditelj, *lijevo, *desno;\n               ^~~~~~~~\nmain.cpp:113:9: warning:   when initialized here [-Wreorder]\n         Cvor (const Tip1 &kljuc, const Tip2& vrijednost, Cvor* lij, Cvor* des, Cvor* rod): kljuc(kljuc), vrijednost(vrijednost), lijevo(lij),desno(des),roditelj(rod) {}\n         ^~~~",
+        "parsed_output": [
+            {
+                "type": "warning",
+                "file": "main.cpp",
+                "line": "9",
+                "col": "22",
+                "message": "unused variable 'rez'",
+                "output": "/tmp/buildservice/bs_8709/main.cpp:9:22: warning: unused variable ‘rez’ [-Wunused-variable]     unsigned byte(0),rez(0);                      ^~~/tmp/buildservice/bs_8709/main.cpp: In instantiation of ‘BinStabloMapa<Tip1, Tip2>::Cvor::Cvor(const Tip1&, const Tip2&, BinStabloMapa<Tip1, Tip2>::Cvor*, BinStabloMapa<Tip1, Tip2>::Cvor*, BinStabloMapa<Tip1, Tip2>::Cvor*) [with Tip1 = int; Tip2 = int]’:/tmp/buildservice/bs_8709/main.cpp:138:17:   required from ‘BinStabloMapa<Tip1, Tip2>::Cvor* BinStabloMapa<Tip1, Tip2>::dodaj(const Tip1&, const Tip2&, BinStabloMapa<Tip1, Tip2>::Cvor*&, BinStabloMapa<Tip1, Tip2>::Cvor*) [with Tip1 = int; Tip2 = int]’/tmp/buildservice/bs_8709/main.cpp:160:22:   required from ‘Tip2& BinStabloMapa<Tip1, Tip2>::operator[](const Tip1&) [with Tip1 = int; Tip2 = int]’/tmp/buildservice/bs_8709/main.cpp:400:26:   required from here",
+                "code": "unsigned byte(0),rez(0);"
+            },
+            {
+                "type": "warning",
+                "file": "main.cpp",
+                "line": "112",
+                "col": "35",
+                "message": "'BinStabloMapa<int, int>::Cvor::desno' will be initialized after",
+                "output": "/tmp/buildservice/bs_8709/main.cpp:112:35: warning: ‘BinStabloMapa<int, int>::Cvor::desno’ will be initialized after [-Wreorder]         Cvor* roditelj, *lijevo, *desno;                                   ^~~~~",
+                "code": "Cvor* roditelj, *lijevo, *desno;"
+            },
+            {
+                "type": "warning",
+                "file": "main.cpp",
+                "line": "112",
+                "col": "15",
+                "message": "'BinStabloMapa<int, int>::Cvor* BinStabloMapa<int, int>::Cvor::roditelj'",
+                "output": "/tmp/buildservice/bs_8709/main.cpp:112:15: warning:   ‘BinStabloMapa<int, int>::Cvor* BinStabloMapa<int, int>::Cvor::roditelj’ [-Wreorder]         Cvor* roditelj, *lijevo, *desno;               ^~~~~~~~",
+                "code": "Cvor* roditelj, *lijevo, *desno;"
+            },
+            {
+                "type": "warning",
+                "file": "main.cpp",
+                "line": "113",
+                "col": "9",
+                "message": "when initialized here",
+                "output": "/tmp/buildservice/bs_8709/main.cpp:113:9: warning:   when initialized here [-Wreorder]         Cvor (const Tip1 &kljuc, const Tip2& vrijednost, Cvor* lij, Cvor* des, Cvor* rod): kljuc(kljuc), vrijednost(vrijednost), lijevo(lij),desno(des),roditelj(rod) {}         ^~~~",
+                "code": "Cvor (const Tip1 &kljuc, const Tip2& vrijednost, Cvor* lij, Cvor* des, Cvor* rod): kljuc(kljuc), vrijednost(vrijednost), lijevo(lij),desno(des),roditelj(rod) {}"
+            }
+        ]
+    },
+    "run_result": [],
+    "debug_result": [],
+    "profile_result": [],
+    "test_results": {
+        "1762": {
+            "status": 1,
+            "run_result": {
+                "output": "2 Hrvatska '' '' 3 '' 0 '' ",
+                "duration": 0,
+                "status": 1
+            },
+            "debug_result": [],
+            "profile_result": [],
+            "compile_result": {
+                "status": 1,
+                "output": ""
+            }
+        },
+        "1763": {
+            "status": 1,
+            "run_result": {
+                "output": "2 2 2 BiH 2 BiH 1 '' 0 ''",
+                "duration": 0,
+                "status": 1
+            },
+            "debug_result": [],
+            "profile_result": [],
+            "compile_result": {
+                "status": 1,
+                "output": ""
+            }
+        },
+        "1764": {
+            "status": 1,
+            "run_result": {
+                "output": "3 Sarajevo Tuzla 4",
+                "duration": 0,
+                "status": 1
+            },
+            "debug_result": [],
+            "profile_result": [],
+            "compile_result": {
+                "status": 1,
+                "output": ""
+            }
+        },
+        "1765": {
+            "status": 1,
+            "run_result": {
+                "output": "2 300 0 2 400 3",
+                "duration": 0,
+                "status": 1
+            },
+            "debug_result": [],
+            "profile_result": [],
+            "compile_result": {
+                "status": 1,
+                "output": ""
+            }
+        },
+        "1766": {
+            "status": 1,
+            "run_result": {
+                "output": "",
+                "duration": 0,
+                "status": 1
+            },
+            "debug_result": [],
+            "profile_result": [],
+            "compile_result": {
+                "status": 1,
+                "output": ""
+            }
+        },
+        "2063": {
+            "status": 4,
+            "run_result": {
+                "output": "",
+                "duration": 10,
+                "status": 2
+            },
+            "debug_result": [],
+            "profile_result": [],
+            "compile_result": {
+                "status": 1,
+                "output": ""
+            }
+        },
+        "2064": {
+            "status": 1,
+            "run_result": {
+                "output": "11001",
+                "duration": 0,
+                "status": 1
+            },
+            "debug_result": [],
+            "profile_result": [],
+            "compile_result": {
+                "status": 1,
+                "output": ""
+            }
+        }
+    },
+    "queue_items": 0,
+    "time": 1546121871
+}
