@@ -1,4 +1,0 @@
-/rhome/l/lkafedzic1/workspace/ASP/Z5/Z1/main.cpp: In member function ‘bool ListaGraf<TipOznake>::cvorListe::operator==(const ListaGraf<TipOznake>::cvorListe&)’:
-/rhome/l/lkafedzic1/workspace/ASP/Z5/Z1/main.cpp:267:105: warning: comparing floating point with == or != is unsafe [-Wfloat-equal]
-             return oznaka==cl.oznaka && redniBrojDolaznogCvora==cl.redniBrojDolaznogCvora && tezina==cl.tezina;
-                                                                                                         ^~~~~~
